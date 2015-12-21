@@ -1,4 +1,4 @@
-# Prumpt
+# Prumpt [![Code Climate](https://codeclimate.com/github/karur4n/prumpt/badges/gpa.svg)](https://codeclimate.com/github/karur4n/prumpt) [![Test Coverage](https://codeclimate.com/github/karur4n/prumpt/badges/coverage.svg)](https://codeclimate.com/github/karur4n/prumpt/coverage)
 
 Prompt + Ruby = Prumpt
 
