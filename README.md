@@ -2,8 +2,6 @@
 
 Prompt + Ruby = Prumpt
 
-TODO: Delete this and the text above, and describe your gem
-
 ## Installation
 
 Add this line to your application's Gemfile:
@@ -22,7 +20,28 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+```ruby
+require 'prumpt'
+
+str_input = Prumpt.get('str question', :String)
+p str_input
+
+int_input = Prumpt.get('int question', :Int)
+p int_input
+
+arry_inputs = Prumpt.get('arry question', :Array)
+p arry_inputs
+```
+
+```sh
+$ ruby app.rb
+str question: body # user input
+"body"
+int question: 10 # user input
+10
+arry qustion: 100 'body' #user input
+[100, 'body']
+```
 
 ## Development
 
