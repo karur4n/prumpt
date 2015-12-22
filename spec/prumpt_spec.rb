@@ -17,7 +17,7 @@ describe Prumpt do
 
       it 'aborts' do
         allow(STDIN).to receive(:gets) { 'user input' }
-        is_expected.to raise_error
+        expect { subject }.to raise_error(SystemExit)
       end
     end
   end
