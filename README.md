@@ -23,13 +23,13 @@ Or install it yourself as:
 ```ruby
 require 'prumpt'
 
-str_input = Prumpt.get('str question', :String)
+str_input = Prumpt.ask('str question', :String)
 p str_input
 
-int_input = Prumpt.get('int question', :Int)
+int_input = Prumpt.ask('int question', :Int)
 p int_input
 
-arry_inputs = Prumpt.get('arry question', :Array)
+arry_inputs = Prumpt.ask('arry question', :Array)
 p arry_inputs
 ```
 
@@ -57,4 +57,3 @@ Bug reports and pull requests are welcome on GitHub at https://github.com/[USERN
 ## License
 
 The gem is available as open source under the terms of the [MIT License](http://opensource.org/licenses/MIT).
-

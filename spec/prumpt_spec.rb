@@ -5,9 +5,9 @@ describe Prumpt do
     []
   end
 
-  describe '#get' do
+  describe '#ask' do
     subject do
-      described_class.get(*args)
+      described_class.ask(*args)
     end
 
     context "with unknown data type" do

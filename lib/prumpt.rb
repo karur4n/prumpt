@@ -1,7 +1,7 @@
 require "prumpt/version"
 
 module Prumpt
-  def self.get(str, type)
+  def self.ask(str, type)
     if type == :Bool
       print "#{str} (y/n): "
     else
@@ -22,7 +22,7 @@ module Prumpt
       when 'n'
         false
       else
-        Prompt.get(str, type)
+        Prompt.ask(str, type)
       end
     when :Array
       input.gsub(',', ' ').split(/\s+/)
